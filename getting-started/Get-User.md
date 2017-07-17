@@ -32,16 +32,16 @@ Obtiene la lista de todos los usuarios registrados.
 
 ## INPUTS
 
-### None
+None
 
 ## OUTPUTS
 
-### Processa.Management.Automation.Gemini.UserInfo
+Processa.Management.Automation.Gemini.UserInfo
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[Get-Project](Get-Project.md)]()
+[Get-Project](Get-Project.md)
 
