@@ -12,7 +12,7 @@ Registra un nuevo requerimiento en el sistema Gemini.
 ## SYNTAX
 
 ```
-New-Issue [-InputObject] <PSObject[]> [[-CustomField] <Object>]
+New-Issue [-InputObject] <PSObject> [[-CustomField] <CustomFieldDataInfo[]>]
 ```
 
 ## DESCRIPTION
@@ -47,7 +47,7 @@ Crea un requerimiento con los campos especificados y agrega el campo personaliza
 Objeto con las propiedades que se deben establecer en el requerimiento.
 
 ```yaml
-Type: PSObject[]
+Type: PSObject
 Parameter Sets: (All)
 Aliases: 
 
