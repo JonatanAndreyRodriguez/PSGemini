@@ -30,16 +30,16 @@ Get-Group
 
 ## INPUTS
 
-### None
+None
 
 ## OUTPUTS
 
-### Processa.Management.Automation.Gemini.UserGroupInfo
+Processa.Management.Automation.Gemini.UserGroupInfo
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[Get-User]()
+[Get-User](Get-User.md)
 
