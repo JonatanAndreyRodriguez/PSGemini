@@ -27,6 +27,21 @@ Get-Issue -InputObject 12345
 
 Obtiene la información del requerimiento asociado con el identificador 12345.
 
+### -------------------------- EXAMPLE 2 --------------------------
+```
+Get-Issue -InputObject 12345 | Select-Object -ExpandProperty Comment
+```
+
+Obtiene la información del requerimiento asociado con el identificador 12345 y luego "expande" sus comentarios.
+
+### -------------------------- EXAMPLE 3 --------------------------
+```
+Get-Issue -InputObject 12345 | Select-Object -ExpandProperty CustomField
+```
+
+Obtiene la información del requerimiento asociado con el identificador 12345 y luego "expande" sus campos personalizados.
+
+
 ## PARAMETERS
 
 ### -InputObject
