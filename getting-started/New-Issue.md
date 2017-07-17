@@ -91,3 +91,5 @@ Autor: Atorres
 
 [New-CustomFieldData](New-CustomFieldData.md)
 
+[InformationVariable](https://msdn.microsoft.com/en-us/powershell/reference/5.1/microsoft.powershell.core/about/about_commonparameters#-informationvariable-variable-name)
+
