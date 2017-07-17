@@ -12,4 +12,4 @@ Esta sección explica cómo instalar el módulo PSCyfe así como sus pre-requisi
 
 * [Importación](Import-Module.md)
 
-* [Funciones](Get-Command-Module.md)
+* [Funciones](Get-Command.md)
