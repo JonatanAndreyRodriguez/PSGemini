@@ -39,9 +39,9 @@ Establece el valor del campo personalizado con el identificador 20 al texto 'Mi 
 ### -------------------------- EXAMPLE 3 --------------------------
 ```
 $CustomFieldId = Get-Project 46 | Get-CustomField | Where-Object -Property CustomFieldName -eq 'EpicorJobNum' | Select-Object -ExpandProperty CustomFieldId
+New-CustomFieldData -Id $CustomFieldId -Value 'Mi valor'
 ```
 
-New-CustomFieldData -Id $CustomFieldId -Value 'Mi valor'
 Establece el valor del campo personalizado con nombre 'EpicorJobNum' en el proyecto 46, al valor 'Mi texto'
 
 ## PARAMETERS
