@@ -9,6 +9,12 @@ Antes de utilizar alguna de las funciones del módulo debe establecer la configu
 
 ### Interactuar con Gemini
 
-* [Obtener la información de los usuarios en el sistema](Get-User.md)
-* [Obtener la información de los grupos de usuarios en el sistema](Get-Group.md)
-* [Obtener la información de los grupos de usuarios en el sistema](Get-Group.md)
+* [Obtener la información de los usuarios](Get-User.md)
+* [Obtener la información de los grupos de usuarios](Get-Group.md)
+* [Obtener la información de los proyectos](Get-Project.md)
+* [Obtener la información de los campos personalizados por proyecto](Get-Project.md)
+* [Obtener la información de un requerimiento](Get-Issue.md)
+
+
+
+
