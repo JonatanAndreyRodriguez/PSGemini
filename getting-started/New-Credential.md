@@ -53,16 +53,16 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### None
+None
 
 ## OUTPUTS
 
-### Processa.Management.Automation.Gemini.Credential
+Processa.Management.Automation.Gemini.Credential
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[Initialize-Session](Initialize-Session.md)]()
+[Initialize-Session](Initialize-Session.md)
 
