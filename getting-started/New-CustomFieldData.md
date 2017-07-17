@@ -95,18 +95,18 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### None
+None
 
 ## OUTPUTS
 
-### Processa.Management.Automation.Gemini.CustomFieldDataInfo
+Processa.Management.Automation.Gemini.CustomFieldDataInfo
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[Get-CustomField](Get-CustomField.md)]()
+[Get-CustomField](Get-CustomField.md)
 
-[[New-Issue](New-Issue.md)]()
+[New-Issue](New-Issue.md)
 
