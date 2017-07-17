@@ -44,7 +44,7 @@ Autor: Atorres
 
 ## RELATED LINKS
 
-[[New-Credential](New-Credential.md)]()
+[New-Credential](New-Credential.md)
 
-[[Initialize-Session](Initialize-Session.md)]()
+[Initialize-Session](Initialize-Session.md)
 
