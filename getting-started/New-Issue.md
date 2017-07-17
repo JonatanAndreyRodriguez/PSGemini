@@ -58,7 +58,7 @@ Accept wildcard characters: False
 Array con la lista de campos personaliados que se deben asociar con el requerimiento.
 
 ```yaml
-Type: Object
+Type: Processa.Management.Automation.Gemini.CustomFieldDataInfo
 Parameter Sets: (All)
 Aliases: 
 
