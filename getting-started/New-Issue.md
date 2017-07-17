@@ -39,7 +39,7 @@ $AdditionalInfo | Where-Object -Property Tags -Match 'CustomField' | Select-Obje
 ```
 Crea un requerimiento con los campos especificados y agrega el campo personalizado 207. 
 
-:information_source: Puede utilizar el parámetro InformationVariable para obtener la información de los campos personalizados creados o de posibles errores generados al guardar.
+:white_check_mark: Puede utilizar el parámetro InformationVariable para obtener la información de los campos personalizados creados o de posibles errores generados al guardar.
 
 ## PARAMETERS
 
