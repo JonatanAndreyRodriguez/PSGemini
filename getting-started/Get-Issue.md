@@ -46,11 +46,11 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### None
+None
 
 ## OUTPUTS
 
-### Processa.Management.Automation.Gemini.IssueInfo
+Processa.Management.Automation.Gemini.IssueInfo
 
 ## NOTES
 Autor: Atorres
