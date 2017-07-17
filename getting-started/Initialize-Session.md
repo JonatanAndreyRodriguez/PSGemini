@@ -53,16 +53,16 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### None
+None
 
 ## OUTPUTS
 
-### System.Void
+System.Void
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[New-Credential](New-Credential.md)]()
+[New-Credential](New-Credential.md)
 
