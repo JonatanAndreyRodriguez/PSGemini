@@ -19,7 +19,7 @@ New-Issue [-InputObject] <PSObject[]> [[-CustomField] <Object>]
 Puede establecer los valores de las propiedades que desea inicializar en el requerimiento.
 Para obtener la lista de propiedades que se pueden inicializar utilice la función Get-AvailabilityField.
 
-\> Pude utilizar el parámetro InformationVariable para obtener la información de los campos personalizados creados o de posibles errores generados al guardar.
+> Pude utilizar el parámetro InformationVariable para obtener la información de los campos personalizados creados o de posibles errores generados al guardar.
 
 ## EXAMPLES
 
@@ -31,12 +31,11 @@ Para obtener la lista de propiedades que se pueden inicializar utilice la funci�
 ### -------------------------- EXAMPLE 2 --------------------------
 ```
 $ReqData = @{Title='Lorem Ipsum'; ProjectId = 46; Description='Lorem'; ReportedBy = 11}
-```
-
 $CustomField = @(New-CustomFieldData -Id 207 -Value 'test value')
 $ReqData | New-Issue -CustomField $CustomField -InformationVariable AdditionalInfo
 $AdditionalInfo | Where-Object -Property Tags -Match 'Error' | Select-Object -ExpandProperty MessageData
 $AdditionalInfo | Where-Object -Property Tags -Match 'CustomField' | Select-Object -ExpandProperty MessageData
+```
 
 ## PARAMETERS
 
@@ -72,21 +71,19 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de InputObject.
-
-OUTPUTS
-System.Int32 con el identificador del requerimiento que se creó.
+Puede canalizar el valor de InputObject.
 
 ## OUTPUTS
+System.Int32 con el identificador del requerimiento que se creó.
 
-### System.Int32
 
 ## NOTES
 Autor: Atorres
 
+
 ## RELATED LINKS
 
-[[Get-AvailabilityField](Get-AvailabilityField.md)]()
+[Get-AvailabilityField](Get-AvailabilityField.md)
 
-[[New-CustomFieldData](New-CustomFieldData.md)]()
+[New-CustomFieldData](New-CustomFieldData.md)
 
