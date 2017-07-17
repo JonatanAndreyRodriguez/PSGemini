@@ -60,16 +60,16 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de InputObject desde la función [Get-Project](Get-Project.md).
+Puede canalizar el valor de InputObject desde la función [Get-Project](Get-Project.md).
 
 ## OUTPUTS
 
-### Processa.Management.Automation.Gemini.CustomFieldInfo
+Processa.Management.Automation.Gemini.CustomFieldInfo
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[Get-Project](Get-Project.md)]()
+[Get-Project](Get-Project.md)
 
