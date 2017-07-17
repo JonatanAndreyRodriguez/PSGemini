@@ -40,7 +40,7 @@ Autor: Atorres
 
 ## RELATED LINKS
 
-[[Test-Configuration](Test-Configuration.md)]()
+[Test-Configuration](Test-Configuration.md)
 
-[[Set-Configuration](Set-Configuration.md)]()
+[Set-Configuration](Set-Configuration.md)
 
