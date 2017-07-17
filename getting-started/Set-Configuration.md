@@ -32,18 +32,18 @@ Muestra una ventana que permite al administrador establecer los valores de confi
 
 ## INPUTS
 
-### None
+None
 
 ## OUTPUTS
 
-### System.Void
+System.Void
 
 ## NOTES
 Autor: Atorrest
 
 ## RELATED LINKS
 
-[[Test-Configuration](Test-Configuration.md)]()
+[Test-Configuration](Test-Configuration.md)
 
-[[Get-Configuration](Get-Configuration.md)]()
+[Get-Configuration](Get-Configuration.md)
 
