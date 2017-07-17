@@ -19,8 +19,8 @@ Antes de utilizar alguna de las funciones del módulo debe establecer la configu
 * [Agregar un requerimiento simple](New-Issue.md)
 * Agregar un requerimiento con campos personalizados
     * [Obtener la lista de campos que se pueden utlizar al crear un requerimiento](Get-AvailabilityField.md)
-    * [Inicializar un campo personalizado](New-CustomFieldData.md)
     * [Obtener la información de los campos personalizados por proyecto](Get-CustomField.md)
-* [Obtener la información de un requerimiento](Get-Issue.md)
-* [Obtener la información de un requerimiento](Get-Issue.md)
+    * [Inicializar un campo personalizado](New-CustomFieldData.md)    
+* [Agregar un comentario a un requerimiento](New-Comment.md)
+
 
