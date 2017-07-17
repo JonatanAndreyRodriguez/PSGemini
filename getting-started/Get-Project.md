@@ -46,16 +46,16 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### None
+None
 
 ## OUTPUTS
 
-### Processa.Management.Automation.Gemini.ProjectInfo
+Processa.Management.Automation.Gemini.ProjectInfo
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[New-Credential]()
+[New-Credential](New-Credential.md)
 
