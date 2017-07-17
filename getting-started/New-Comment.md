@@ -84,16 +84,16 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### None
+None
 
 ## OUTPUTS
 
-### System.Void
+System.Void
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
 
-[[New-Issue](New-Issue.md)]()
+[New-Issue](New-Issue.md)
 
