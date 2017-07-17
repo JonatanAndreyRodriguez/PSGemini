@@ -3,6 +3,7 @@
 Antes de utilizar alguna de las funciones del módulo debe establecer la configuración e iniciar una conexión con el sistema remoto:
 
 ### Conectar con Gemini
+---
 
 1) [Establecer los valores de conexión](New-Credential.md)
 2) [Iniciar una conexión](Initialize-Session.md)
