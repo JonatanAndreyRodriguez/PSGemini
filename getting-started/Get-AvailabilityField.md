@@ -32,11 +32,11 @@ Get-AvailabilityField
 
 ## INPUTS
 
-### None
+None
 
 ## OUTPUTS
 
-### System.Management.Automation.PSObject[]
+System.Management.Automation.PSObject[]
 
 ## NOTES
 Autor: Atorres
