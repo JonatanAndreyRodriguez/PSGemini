@@ -46,7 +46,7 @@ Obtiene la información del requerimiento asociado con el identificador 12345 y 
 Get-Issue -InputObject 12345 | Select-Object -ExpandProperty StatusIsFinal
 ```
 
-Determinar si un requerimiento esta cerrado.
+Determinar si un requerimiento está cerrado.
 
 
 ## PARAMETERS
