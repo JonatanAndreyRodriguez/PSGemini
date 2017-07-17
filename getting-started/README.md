@@ -12,15 +12,15 @@ Antes de utilizar alguna de las funciones del módulo debe establecer la configu
 * [Obtener la información de los usuarios](Get-User.md)
 * [Obtener la información de los grupos de usuarios](Get-Group.md)
 * [Obtener la información de los proyectos](Get-Project.md)
-* [Obtener la información de los campos personalizados por proyecto](Get-Project.md)
+* [Obtener la información de los campos personalizados por proyecto](Get-CustomField.md)
 * [Obtener la información de un requerimiento](Get-Issue.md)
 
 ### Agregar un requerimiento
 * [Agregar un requerimiento simple](New-Issue.md)
 * Agregar un requerimiento con campos personalizados
-    * [xxx](Get-AvailabilityField.md)
-    * [xxx](New-CustomFieldData.md)
-    * [xxx](Get-CustomField.md)
+    * [Obtener la lista de campos que se pueden utlizar al crear un requerimiento](Get-AvailabilityField.md)
+    * [Inicializar un campo personalizado](New-CustomFieldData.md)
+    * [Obtener la información de los campos personalizados por proyecto](Get-CustomField.md)
 * [Obtener la información de un requerimiento](Get-Issue.md)
 * [Obtener la información de un requerimiento](Get-Issue.md)
 
