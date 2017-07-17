@@ -37,7 +37,8 @@ $ReqData | New-Issue -CustomField $CustomField -InformationVariable AdditionalIn
 $AdditionalInfo | Where-Object -Property Tags -Match 'Error' | Select-Object -ExpandProperty MessageData
 $AdditionalInfo | Where-Object -Property Tags -Match 'CustomField' | Select-Object -ExpandProperty MessageData
 ```
-Crea un requerimiento con los campos especificados y agrega el campo personalizado 207. Puede utilizar el parámetro InformationVariable para obtener la información de los campos personalizados creados o de posibles errores generados al guardar.
+Crea un requerimiento con los campos especificados y agrega el campo personalizado 207. 
+:exclamation: Puede utilizar el parámetro InformationVariable para obtener la información de los campos personalizados creados o de posibles errores generados al guardar.
 
 ## PARAMETERS
 
