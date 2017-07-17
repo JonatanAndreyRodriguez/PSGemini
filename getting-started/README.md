@@ -9,6 +9,7 @@ Antes de utilizar alguna de las funciones del módulo debe establecer la configu
 2) [Iniciar una conexión](Initialize-Session.md)
 
 ### Interactuar con Gemini
+---
 
 * [Obtener la información de los usuarios](Get-User.md)
 * [Obtener la información de los grupos de usuarios](Get-Group.md)
@@ -17,6 +18,8 @@ Antes de utilizar alguna de las funciones del módulo debe establecer la configu
 * [Obtener la información de un requerimiento](Get-Issue.md)
 
 ### Agregar un requerimiento
+---
+
 * [Agregar un requerimiento simple](New-Issue.md)
 * Agregar un requerimiento con campos personalizados
     * [Obtener la lista de campos que se pueden utlizar al crear un requerimiento](Get-AvailabilityField.md)
