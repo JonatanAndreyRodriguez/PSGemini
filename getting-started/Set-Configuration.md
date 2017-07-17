@@ -16,8 +16,9 @@ Set-Configuration
 ```
 
 ## DESCRIPTION
-Establece la información de los datos de configuración del módulo en el archivo PSGemini..config.
-**Se requiere que el usuario tenga permisos de Administrador**.
+Establece la información de los datos de configuración del módulo en el archivo PSGemini.config.
+
+> **Se requiere que el usuario tenga permisos de Administrador**.
 
 ## EXAMPLES
 
