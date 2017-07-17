@@ -23,13 +23,13 @@ Para obtener la lista de propiedades que se pueden inicializar utilice la funci√
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### -------------------------- REQUERIMIENTO SIMPLE --------------------------
 ```
 @{Title='Lorem Ipsum'; ProjectId = 46; Description='Lorem'; ReportedBy = 11} | New-Issue
 ```
 Crea un requerimiento con los campos especificados.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### ---------------- REQUERIMIENTO CON CAMPOS PERSONALIZADOS ------------------
 ```
 $ReqData = @{Title='Lorem Ipsum'; ProjectId = 46; Description='Lorem'; ReportedBy = 11}
 $CustomField = @(New-CustomFieldData -Id 207 -Value 'test value')
