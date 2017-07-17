@@ -19,7 +19,7 @@ New-Issue [-InputObject] <PSObject> [[-CustomField] <CustomFieldDataInfo[]>]
 Puede establecer los valores de las propiedades que desea inicializar en el requerimiento.
 Para obtener la lista de propiedades que se pueden inicializar utilice la función Get-AvailabilityField.
 
-> Puede utilizar el parámetro InformationVariable para obtener la información de los campos personalizados creados o de posibles errores generados al guardar.
+> Puede utilizar el parámetro `InformationVariable` para obtener la información de los campos personalizados creados o de posibles errores generados al guardar.
 
 ## EXAMPLES
 
@@ -39,7 +39,7 @@ $AdditionalInfo | Where-Object -Property Tags -Match 'CustomField' | Select-Obje
 ```
 Crea un requerimiento con los campos especificados y agrega el campo personalizado 207. 
 
-:ballot_box_with_check: Puede utilizar el parámetro InformationVariable para obtener la información de los campos personalizados creados o de posibles errores generados al guardar.
+:ballot_box_with_check: Puede utilizar el parámetro `InformationVariable` para obtener la información de los campos personalizados creados o de posibles errores generados al guardar.
 
 ## PARAMETERS
 
