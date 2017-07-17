@@ -41,6 +41,13 @@ Get-Issue -InputObject 12345 | Select-Object -ExpandProperty CustomField
 
 Obtiene la información del requerimiento asociado con el identificador 12345 y luego "expande" sus campos personalizados.
 
+### -------------------------- EXAMPLE 4 --------------------------
+```
+Get-Issue -InputObject 12345 | Select-Object -ExpandProperty StatusIsFinal
+```
+
+Determinar si un requerimiento esta cerrado.
+
 
 ## PARAMETERS
 
