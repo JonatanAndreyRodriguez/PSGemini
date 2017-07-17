@@ -33,11 +33,11 @@ Get-CurrentUser
 
 ## INPUTS
 
-### None
+None
 
 ## OUTPUTS
 
-### System.Object
+System.Object
 
 ## NOTES
 Autor: Atorres
