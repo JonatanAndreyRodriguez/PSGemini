@@ -9,7 +9,6 @@ Register-PSRepository -Name 'Processa GT' -SourceLocation 'http://proget:8020/nu
 2. Instale el módulo desde el Repositorio
 
 ```
-Register-PSRepository -Name 'Processa GT' -SourceLocation 'http://proget:8020/nuget/PowerShell' -InstallationPolicy Trusted
 Install-Module -Name 'PSGemini' -Repository 'Processa GT' -AllowClobber
 ```
 
