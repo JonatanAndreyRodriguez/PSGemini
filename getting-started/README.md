@@ -8,6 +8,10 @@ Antes de utilizar alguna de las funciones del módulo debe establecer la configu
 * [Establecer los valores de conexión](New-Credential.md)
 * [Iniciar una conexión](Initialize-Session.md)
 
+```
+New-Credential | Initialize-Session
+```
+
 ### 2. Interactuar con Gemini
 ---
 
