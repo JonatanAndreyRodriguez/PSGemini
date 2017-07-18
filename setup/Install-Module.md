@@ -9,4 +9,6 @@ Install-Module -Name 'PSGemini' -Repository 'Processa GT' -AllowClobber
 ```
 
 ### RELATED LINKS
+[Register-PSRepository](https://msdn.microsoft.com/en-us/powershell/reference/5.0/powershellget/register-psrepository)
+
 [Install-Module](https://msdn.microsoft.com/en-us/powershell/reference/5.1/powershellget/install-module)
