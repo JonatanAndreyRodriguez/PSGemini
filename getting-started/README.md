@@ -9,6 +9,7 @@ Antes de utilizar alguna de las funciones del módulo debe establecer la configu
 * [Iniciar una conexión](Initialize-Session.md)
 
 ```
+Import-Module PSGemini
 New-Credential | Initialize-Session
 ```
 
