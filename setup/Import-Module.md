@@ -5,7 +5,7 @@
 3. Ejecute el comando
 
 ```
-Import-Module PSCyfe
+Import-Module PSGemini
 ```
 
 > **Nota:** El módulo quedará disponible para la sesión actual, por lo tanto estará en memoria hasta que la sesión finalice (cuando cierre la ventana). Así las cosas **_en adelante no es necesario ejecutar de nuevo esta instrucción._**
