@@ -1,6 +1,6 @@
 # Instalación
 
-Esta sección explica cómo instalar el módulo PSCyfe así como sus pre-requisitos y funciones de ayuda.
+Esta sección explica cómo instalar el módulo PSGemini así como sus pre-requisitos y funciones de ayuda.
 
 * [Especificaciones y requisitos del sistema](Specifications.md)
 
