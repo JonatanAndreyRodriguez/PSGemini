@@ -12,7 +12,7 @@ Obtiene la información de los campos personalizados configurados para cada proy
 ## SYNTAX
 
 ```
-Get-CustomField [-InputObject] <Object>
+Get-CustomField [-InputObject] <ProjectInfo>
 ```
 
 ## DESCRIPTION
@@ -47,7 +47,7 @@ Obtiene los campos personalizados del proyecto con nombre 'Mi nombre'
 Información de los proyectos para los que se obtienen los campos personalizados.
 
 ```yaml
-Type: Object
+Type: ProjectInfo
 Parameter Sets: (All)
 Aliases: ProjectId, Id
 
