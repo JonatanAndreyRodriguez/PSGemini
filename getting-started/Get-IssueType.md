@@ -49,14 +49,14 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### Puede canalizar el valor de InputObject desde la función [Get-Project](Get-Project.md).
+Puede canalizar el valor de InputObject desde la función [Get-Project](Get-Project.md).
 
 ## OUTPUTS
 
-### System.Management.Automation.PSObject
+System.Management.Automation.PSObject
 
 ## NOTES
 Autor: Atorres
 
 ## RELATED LINKS
-
+[Get-Project](Get-Project.md)
