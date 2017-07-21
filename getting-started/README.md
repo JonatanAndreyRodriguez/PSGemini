@@ -21,6 +21,7 @@ New-Credential | Initialize-Session
 * [Obtener la información de los proyectos](Get-Project.md)
 * [Obtener la información de los campos personalizados por proyecto](Get-CustomField.md)
 * [Obtener la información de un requerimiento](Get-Issue.md)
+* [Obtener la información de los tipos de requerimiento por proyecto](Get-IssueType.md)
 
 ### 3. Agregar un requerimiento
 ---
