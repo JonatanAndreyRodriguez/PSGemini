@@ -22,13 +22,17 @@ Obtiene la información de los tipos de requerimientos configurados para cada pr
 
 ### -------------------------- EXAMPLE 1 --------------------------
 ```
-
+Get-Project -InputObject 46 | Get-IssueType
 ```
+
+Obtene la información de los tipos de requerimientos para el proyecto con el código 46.
 
 ### -------------------------- EXAMPLE 2 --------------------------
 ```
-
+Get-Project | Get-IssueType
 ```
+
+Obtene la información de los tipos de requerimientos para todos los proyectos.
 
 ## PARAMETERS
 
@@ -36,7 +40,7 @@ Obtiene la información de los tipos de requerimientos configurados para cada pr
 Información de los proyectos para los que se obtienen los tipos de requerimientos.
 
 ```yaml
-Type: Processa.Management.Automation.Gemini.ProjectInfo
+Type: Object
 Parameter Sets: (All)
 Aliases: ProjectId, Id
 
@@ -59,4 +63,4 @@ System.Management.Automation.PSObject
 Autor: Atorres
 
 ## RELATED LINKS
-[Get-Project](Get-Project.md)
+
