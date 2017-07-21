@@ -33,10 +33,10 @@ Obtiene la información de los tipos de requerimientos configurados para cada pr
 ## PARAMETERS
 
 ### -InputObject
-{{Fill InputObject Description}}
+Información de los proyectos para los que se obtienen los tipos de requerimientos.
 
 ```yaml
-Type: Object
+Type: Processa.Management.Automation.Gemini.ProjectInfo
 Parameter Sets: (All)
 Aliases: ProjectId, Id
 
