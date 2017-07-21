@@ -12,7 +12,7 @@ Obtiene la información de los tipos de requerimientos configurados para cada pr
 ## SYNTAX
 
 ```
-Get-IssueType [-InputObject] <Object>
+Get-IssueType [-InputObject] <ProjectInfo>
 ```
 
 ## DESCRIPTION
@@ -40,7 +40,7 @@ Obtene la información de los tipos de requerimientos para todos los proyectos.
 Información de los proyectos para los que se obtienen los tipos de requerimientos.
 
 ```yaml
-Type: Object
+Type: ProjectInfo
 Parameter Sets: (All)
 Aliases: ProjectId, Id
 
@@ -63,4 +63,4 @@ System.Management.Automation.PSObject
 Autor: Atorres
 
 ## RELATED LINKS
-
+[Get-Project](Get-Project.md)
