@@ -68,3 +68,5 @@ Autor: Atorres
 
 [Set-Configuration](Set-Configuration.md)
 
+[Connect-Gemini](Connect-Gemini.md)
+
