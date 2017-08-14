@@ -11,7 +11,7 @@ Obtiene la información de un requerimiento en el sistema Gemini.
 
 ## SYNTAX
 
-```
+```powershell
 Get-Issue [-InputObject] <Int32>
 ```
 
@@ -21,28 +21,28 @@ Obtiene la información de un requerimiento en el sistema Gemini, adicionando su
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-Issue -InputObject 12345
 ```
 
 Obtiene la información del requerimiento asociado con el identificador 12345.
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-Issue -InputObject 12345 | Select-Object -ExpandProperty Comment
 ```
 
 Obtiene la información del requerimiento asociado con el identificador 12345 y luego "expande" sus comentarios.
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```
+```powershell
 Get-Issue -InputObject 12345 | Select-Object -ExpandProperty CustomField
 ```
 
 Obtiene la información del requerimiento asociado con el identificador 12345 y luego "expande" sus campos personalizados.
 
 ### -------------------------- EXAMPLE 4 --------------------------
-```
+```powershell
 Get-Issue -InputObject 12345 | Select-Object -ExpandProperty StatusIsFinal
 ```
 
