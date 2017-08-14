@@ -17,7 +17,7 @@ Connect-Gemini
 
 ## DESCRIPTION
 Conecta con el API de Gemini untilizando los valores predeterminados.
-Simplemente ejecuta las funciones New-Credential | Initialize-Session.
+Simplemente ejecuta las funciones `New-Credential | Initialize-Session`.
 
 ## EXAMPLES
 
