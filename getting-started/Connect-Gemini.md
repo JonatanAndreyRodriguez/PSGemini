@@ -42,3 +42,6 @@ Autor: Atorres
 
 ## RELATED LINKS
 
+[New-Credential](New-Credential.md)
+
+[Initialize-Session](Initialize-Session.md)
