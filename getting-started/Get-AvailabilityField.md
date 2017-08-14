@@ -11,7 +11,7 @@ Obtiene la lista de campos que se pueden utlizar al crear un requerimiento.
 
 ## SYNTAX
 
-```
+```powershell
 Get-AvailabilityField
 ```
 
@@ -24,7 +24,7 @@ Obtendrá un error en tiempo de ejecución si el tipo no es el correcto.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-AvailabilityField
 ```
 
