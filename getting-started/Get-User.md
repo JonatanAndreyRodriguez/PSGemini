@@ -36,7 +36,7 @@ Get-User -Force
 Obtiene la lista de todos los usuarios registrados.
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```
+```powershell
 Get-Group -Name 'IT' | Get-User
 ```
 
