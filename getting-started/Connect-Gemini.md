@@ -11,7 +11,7 @@ Conecta con el API de Gemini untilizando los valores predeterminados.
 
 ## SYNTAX
 
-```
+```powershell
 Connect-Gemini
 ```
 
@@ -22,7 +22,7 @@ Simplemente ejecuta las funciones New-Credential | Initialize-Session.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Connect-Gemini
 ```
 
