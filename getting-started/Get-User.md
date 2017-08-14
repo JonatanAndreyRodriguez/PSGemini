@@ -35,6 +35,13 @@ Get-User -Force
 
 Obtiene la lista de todos los usuarios registrados.
 
+### -------------------------- EXAMPLE 3 --------------------------
+```
+Get-Group -Name 'IT' | Get-User
+```
+
+Obtiene la lista de usuarios en el grupo 'IT'
+
 ## PARAMETERS
 ### -Force
 Cuando se establece, se obtiene la lista de todos los usuarios, incluidos los deshabilitados y los marcados para eliminar.
