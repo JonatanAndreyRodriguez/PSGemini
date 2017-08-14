@@ -11,7 +11,7 @@ Registra un nuevo requerimiento en el sistema Gemini.
 
 ## SYNTAX
 
-```
+```powershell
 New-Issue [-InputObject] <PSObject> [[-CustomField] <CustomFieldDataInfo[]>]
 ```
 
@@ -24,13 +24,13 @@ Para obtener la lista de propiedades que se pueden inicializar utilice la funci√
 ## EXAMPLES
 
 ### -------------------------- REQUERIMIENTO SIMPLE --------------------------
-```
+```powershell
 @{Title='Lorem Ipsum'; ProjectId = 46; Description='Lorem'; ReportedBy = 11} | New-Issue
 ```
 Crea un requerimiento con los campos especificados.
 
 ### ---------- REQUERIMIENTO CON CAMPOS PERSONALIZADOS ------------
-```
+```powershell
 $ReqData = @{Title='Lorem Ipsum'; ProjectId = 46; Description='Lorem'; ReportedBy = 11}
 $CustomField = @(New-CustomFieldData -Id 207 -Value 'test value')
 $ReqData | New-Issue -CustomField $CustomField -InformationVariable AdditionalInfo
