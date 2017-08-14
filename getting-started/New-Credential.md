@@ -11,7 +11,7 @@ Obtiene la información de los datos de conexión con el API de Gemini.
 
 ## SYNTAX
 
-```
+```powershell
 New-Credential [[-ConnectionString] <String>]
 ```
 
@@ -21,14 +21,14 @@ La cadena de conexión debe tener la forma url=value;username=value;apikey=value
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 New-Credential
 ```
 
 Utiliza los valores de conexión establecidos en el archico PSGemini.config.
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 New-Credential -ConnectionString 'url=http://processa6.ongemini.com;username=999999999;apikey=miapikey'
 ```
 
