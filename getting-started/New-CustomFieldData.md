@@ -11,7 +11,7 @@ Crea un objeto que representa la información del valor de un campo personalizad
 
 ## SYNTAX
 
-```
+```powershell
 New-CustomFieldData [-Id] <Int32> [-Value] <String> [[-UserId] <Int32>]
 ```
 
@@ -23,21 +23,21 @@ de un objeto de tipo Countersoft.Gemini.Commons.Entity.CustomFieldData.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 New-CustomFieldData -Id 20 -Value 'Mi valor'
 ```
 
 Establece el valor del campo personalizado con el identificador 20 al texto 'Mi valor'
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 New-CustomFieldData -Id 20 -Value 'Mi valor' -UserId 2
 ```
 
 Establece el valor del campo personalizado con el identificador 20 al texto 'Mi valor', asociando al usuario con el identificador 2 como "publicante" del valor del campo.
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```
+```powershell
 $CustomFieldId = Get-Project 46 | Get-CustomField | Where-Object -Property CustomFieldName -eq 'EpicorJobNum' | Select-Object -ExpandProperty CustomFieldId
 New-CustomFieldData -Id $CustomFieldId -Value 'Mi valor'
 ```
