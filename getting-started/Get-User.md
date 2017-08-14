@@ -32,7 +32,6 @@ Obtiene la lista de todos los usuarios registrados.
 ## PARAMETERS
 
 ## INPUTS
-
 None
 
 ## OUTPUTS
