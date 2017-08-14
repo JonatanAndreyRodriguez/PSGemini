@@ -66,3 +66,4 @@ Autor: Atorres
 
 [New-Credential](New-Credential.md)
 
+[Connect-Gemini](Connect-Gemini.md)
