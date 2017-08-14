@@ -48,7 +48,7 @@ Cuando se establece, se obtiene la lista de todos los usuarios, incluidos los de
 
 
 ## INPUTS
-None
+Puede canalizar el valor de InputObject desde la función `Get-Group` para filtrar solo los usuarios de uno o más grupos.
 
 ## OUTPUTS
 
