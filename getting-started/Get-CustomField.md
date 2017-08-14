@@ -11,7 +11,7 @@ Obtiene la información de los campos personalizados configurados para cada proy
 
 ## SYNTAX
 
-```
+```powershell
 Get-CustomField [-InputObject] <ProjectInfo>
 ```
 
@@ -21,21 +21,21 @@ Obtiene la información de los campos personalizados configurados para cada proy
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-Project | Get-CustomField
 ```
 
 Obtiene los campos personalizados de todos los proyectos.
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-Project -Id 44 | Get-CustomField
 ```
 
 Obtiene los campos personalizados del proyecto con identificador 44.
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```
+```powershell
 Get-Project | Where-Object -Property Name -eq 'Mi nombre' | Get-CustomField
 ```
 
