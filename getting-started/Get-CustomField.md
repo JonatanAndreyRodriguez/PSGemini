@@ -36,7 +36,7 @@ Obtiene los campos personalizados del proyecto con identificador 44.
 
 ### -------------------------- EXAMPLE 3 --------------------------
 ```powershell
-Get-Project | Where-Object -Property Name -eq 'Mi nombre' | Get-CustomField
+Get-Project -Name 'Test' | Get-CustomField
 ```
 
 Obtiene los campos personalizados del proyecto con nombre 'Mi nombre'
