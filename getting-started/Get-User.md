@@ -11,7 +11,7 @@ Obtiene la lista de usuarios registrados en el sistema Gemini.
 
 ## SYNTAX
 
-```
+```powershell
 Get-User
 ```
 
@@ -22,7 +22,7 @@ Los usuarios se administran desde la UI de Gemini bajo la opción Customize \>\>
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-User
 ```
 
