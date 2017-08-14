@@ -11,7 +11,7 @@ Obtiene la información de los tipos de requerimientos configurados para cada pr
 
 ## SYNTAX
 
-```
+```powershell
 Get-IssueType [-InputObject] <ProjectInfo>
 ```
 
@@ -21,14 +21,14 @@ Obtiene la información de los tipos de requerimientos configurados para cada pr
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-Project -InputObject 46 | Get-IssueType
 ```
 
 Obtene la información de los tipos de requerimientos para el proyecto con el código 46.
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-Project | Get-IssueType
 ```
 
