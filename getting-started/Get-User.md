@@ -27,9 +27,18 @@ New-Credential | Initialize-Session
 Get-User
 ```
 
+### -------------------------- EXAMPLE 2 --------------------------
+```powershell
+New-Credential | Initialize-Session
+Get-User -Force
+```
+
 Obtiene la lista de todos los usuarios registrados.
 
 ## PARAMETERS
+### -Force
+Cuando se establece, se obtiene la lista de todos los usuarios, incluidos los deshabilitados y los marcados para eliminar.
+
 
 ## INPUTS
 None
