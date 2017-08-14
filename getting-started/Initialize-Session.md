@@ -11,7 +11,7 @@ Establece una conexión con el API de Gemini.
 
 ## SYNTAX
 
-```
+```powershell
 Initialize-Session [-InputObject] <Object>
 ```
 
@@ -21,14 +21,14 @@ Establece una conexión con el API de Gemini si no se ha establecido alguna, de 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 New-Credential | Initialize-Session
 ```
 
 Conecta con el API de Gemini utilizando la información de credenciales en el archivo PSGemini.config
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 New-Credential -ConnectionString 'url=http://processa6.ongemini.com;username=username;apikey=apikey' | Initialize-Session
 ```
 
