@@ -1,10 +1,10 @@
-### [1.0.0] - 2017-jun-22
+### [1.0.6408.553679700] - 2017-jun-22
 - Versión inicial del módulo.
 
-### [1.1] - 2017-jul-21
+### [1.1.6412.553977989] - 2017-jul-21
 - Se agregó la función Get-IssueType
 
-### [1.2] - 2017-ago-14
+### [1.2.6436.56403] - 2017-ago-14
 - Mejoras internas. Se ageraron sobrecargas y filtros en algunas funciones.
 - Enhancement: Get-Issue ahora admite obtener los requerimientos de un grupo de usuarios.
 - Breaking change: Se renombró el parámetro InputObject en Get-Issue por Id
