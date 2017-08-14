@@ -11,7 +11,7 @@ Obtiene la lista de grupos de usuarios registrados en el sistema Gemini.
 
 ## SYNTAX
 
-```
+```powershell
 Get-Group
 ```
 
@@ -22,7 +22,7 @@ Los grupos se administran desde la UI de Gemini bajo la opción Customize \>\> P
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-Group
 ```
 
