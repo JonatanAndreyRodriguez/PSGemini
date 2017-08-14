@@ -23,6 +23,7 @@ Los usuarios se administran desde la UI de Gemini bajo la opción Customize \>\>
 
 ### -------------------------- EXAMPLE 1 --------------------------
 ```powershell
+New-Credential | Initialize-Session
 Get-User
 ```
 
