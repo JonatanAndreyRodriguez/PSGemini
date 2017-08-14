@@ -11,7 +11,7 @@ Obtiene la lista de proyectos a los que tiene acceso el usuario que se utilizó 
 
 ## SYNTAX
 
-```
+```powershell
 Get-Project [[-InputObject] <Int32>]
 ```
 
@@ -21,7 +21,7 @@ Obtiene la lista de proyectos a los que tiene acceso el usuario que se utilizó 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-Project
 ```
 
