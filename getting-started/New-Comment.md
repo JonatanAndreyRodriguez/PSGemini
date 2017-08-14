@@ -11,7 +11,7 @@ Agrega un comentario a un requerimiento.
 
 ## SYNTAX
 
-```
+```powershell
 New-Comment [-IssueId] <Int32> [-Text] <String> [[-UserId] <Int32>]
 ```
 
@@ -21,14 +21,14 @@ Agrega un comentario a un requerimiento estableciendo el usuario en UserId como 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 New-Comment -IssueId 12345 -Text 'Lorem Ipsum'
 ```
 
 Crea un comentario con el texto 'Lorem Ipsum' en el requerimiento 12345.
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 New-Comment -IssueId 12345 -Text 'Lorem Ipsum' -IsuerId 1
 ```
 
