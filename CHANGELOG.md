@@ -1,4 +1,4 @@
-### [1.0.0] - 2017-jun-22 (Atorres)
+### [1.0.0] - 2017-jun-22
 - Versión inicial del módulo.
 
 ### [1.1] - 2017-jul-21
