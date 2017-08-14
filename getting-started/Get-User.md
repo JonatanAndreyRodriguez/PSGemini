@@ -12,7 +12,7 @@ Obtiene la lista de usuarios registrados en el sistema Gemini.
 ## SYNTAX
 
 ```powershell
-Get-User
+Get-User [[-InputObject] <Object>] [-Force]
 ```
 
 ## DESCRIPTION
